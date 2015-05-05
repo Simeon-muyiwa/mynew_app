@@ -1,1 +1,0 @@
-my_app.ClientsRoute = Ember.Route.extend
