@@ -16,7 +16,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faker','1.4.2'
 gem 'carrierwave','0.10.0'
 gem 'mini_magick','3.8.0'
-gem 'pg',  '0.17.1'
+
 
 group :production do
   gem 'pg',  '0.17.1'
@@ -32,7 +32,8 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring',      '1.1.3'
+  
 end
 
 
